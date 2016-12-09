@@ -9,6 +9,7 @@ You will be implementing the following ERD with knex, and creating knex queries 
 NOTE: The only existing file in this repo you will need to modify is `queries.js`
 
 * Fork and clone this repo
+* `cd` into the folder and `npm install`
 * Create *2 migrations* and *2 seeds* with the data available in the `/data` directory
 * Update the `queries.js` file with the queries you will need
   * Each query function should return a promise that resolves to the desired data
