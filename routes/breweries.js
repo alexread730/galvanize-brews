@@ -9,7 +9,7 @@ router.get("/", function(request, response, next) {
 });
 
 router.get("/:id/beers", function(request, response, next) {
-  queries.getBeersByBrewery(req.params.id).then(function(beers) {
+  queries.getBeersByBrewery(request.params.id).then(function(beers) {
     response.render("beers", {beers: beers});
   });
 });
