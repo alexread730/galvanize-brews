@@ -1,5 +1,4 @@
 
-
 module.exports = {
     getBreweries: function(){
         // Return a promise that gets all breweries

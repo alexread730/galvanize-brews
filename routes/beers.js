@@ -4,7 +4,7 @@ var queries = require("../queries");
 
 router.get("/", function(request, response, next) {
     queries.getBeers().then(function(beers) {
-        response.render("beers", {beers: beers});
+        response.json(beers);
     });
 });
 
