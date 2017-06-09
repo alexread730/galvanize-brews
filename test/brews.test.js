@@ -13,8 +13,8 @@ describe('Project', () => {
   });
 
   xit('should have a seeds directory', () => {
-     const hasMigrations = fs.existsSync('seeds');
-     expect(hasMigrations).to.equal(true);
+     const hasSeeds = fs.existsSync('seeds');
+     expect(hasSeeds).to.equal(true);
   });
 });
 

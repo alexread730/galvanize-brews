@@ -17,10 +17,13 @@ NOTE: The only existing file in this repo you will need to modify is `queries.js
 * Run `npm start` to see the views
 
 ## Tasks
+* Initialize this folder as a knex project
 * Create *2 migrations* and *2 seeds* with the data available in the `/data` directory
   * You do not need to parse the CSV files, it is OK to copy/paste the values into a seed file.
 * Update the `queries.js` file with the queries you will need
   * Each query function should return a promise that resolves to the desired data
+
+## Submitting your Project
 
 * When you're done, you should have a site that looks [like this](http://galvanize-brews.herokuapp.com/)
 * When all tests are passing, issue a PR to this repo!
