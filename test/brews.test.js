@@ -22,7 +22,7 @@ describe('Breweries', () => {
   xit('getBreweries returns a promise', () => {
     const promise = queries.getBreweries();
     expect(promise).to.not.equal(undefined);
-    expect(promise.constructor).to.equal(Promise);
+    expect(promise.then).to.not.equal(undefined);
   })
 
   xit('can get all breweries', (done) => {
@@ -38,7 +38,7 @@ describe('Breweries', () => {
   xit('getBrewery returns a promise', () => {
     const promise = queries.getBrewery();
     expect(promise).to.not.equal(undefined);
-    expect(promise.constructor).to.equal(Promise);
+    expect(promise.then).to.not.equal(undefined);
   })
 
   xit('can get a brewery by id', (done) => {
@@ -64,7 +64,7 @@ describe('Breweries', () => {
   xit('getBeersByBrewery returns a promise', () => {
     const promise = queries.getBeersByBrewery();
     expect(promise).to.not.equal(undefined);
-    expect(promise.constructor).to.equal(Promise);
+    expect(promise.then).to.not.equal(undefined);
   })
 
   xit('can get beers for a brewery by id', (done) => {
@@ -93,7 +93,7 @@ describe('Beers', () => {
   xit('getBeers returns a promise', () => {
     const promise = queries.getBeers();
     expect(promise).to.not.equal(undefined);
-    expect(promise.constructor).to.equal(Promise);
+    expect(promise.then).to.not.equal(undefined);
   })
 
   xit('can get all beers', (done) => {
