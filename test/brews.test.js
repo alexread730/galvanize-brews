@@ -19,13 +19,13 @@ describe('Project', () => {
 });
 
 describe('Breweries', () => {
-  xit('getBreweries returns a promise', () => {
+  it('getBreweries returns a promise', () => {
     const promise = queries.getBreweries();
     expect(promise).to.not.equal(undefined);
     expect(promise.then).to.not.equal(undefined);
   })
 
-  xit('can get all breweries', (done) => {
+  it('can get all breweries', (done) => {
     request(app)
       .get('/breweries')
       .end((err, res) => {
@@ -35,13 +35,13 @@ describe('Breweries', () => {
       })
   })
 
-  xit('getBrewery returns a promise', () => {
+  it('getBrewery returns a promise', () => {
     const promise = queries.getBrewery();
     expect(promise).to.not.equal(undefined);
     expect(promise.then).to.not.equal(undefined);
   })
 
-  xit('can get a brewery by id', (done) => {
+  it('can get a brewery by id', (done) => {
     request(app)
       .get('/breweries/1')
       .end((err, res) => {
@@ -51,7 +51,7 @@ describe('Breweries', () => {
       })
   })
 
-  xit('can get a brewery by id', (done) => {
+  it('can get a brewery by id', (done) => {
     request(app)
       .get('/breweries/2')
       .end((err, res) => {
@@ -61,13 +61,13 @@ describe('Breweries', () => {
       })
   })
 
-  xit('getBeersByBrewery returns a promise', () => {
+  it('getBeersByBrewery returns a promise', () => {
     const promise = queries.getBeersByBrewery();
     expect(promise).to.not.equal(undefined);
     expect(promise.then).to.not.equal(undefined);
   })
 
-  xit('can get beers for a brewery by id', (done) => {
+  it('can get beers for a brewery by id', (done) => {
     request(app)
       .get('/breweries/1/beers')
       .end((err, res) => {
@@ -77,7 +77,7 @@ describe('Breweries', () => {
       })
   })
 
-  xit('can get beers for a brewery by id', (done) => {
+  it('can get beers for a brewery by id', (done) => {
     request(app)
       .get('/breweries/2/beers')
       .end((err, res) => {
@@ -90,13 +90,13 @@ describe('Breweries', () => {
 
 
 describe('Beers', () => {
-  xit('getBeers returns a promise', () => {
+  it('getBeers returns a promise', () => {
     const promise = queries.getBeers();
     expect(promise).to.not.equal(undefined);
     expect(promise.then).to.not.equal(undefined);
   })
 
-  xit('can get all beers', (done) => {
+  it('can get all beers', (done) => {
     request(app)
       .get('/beers')
       .end((err, res) => {

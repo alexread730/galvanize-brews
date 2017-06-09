@@ -4,7 +4,7 @@ const beers = [
     "brewery_name": "Comrade",
     "id": 1,
     "name": "Comrade",
-    "abv": "5.0",
+    "abv": 5,
     "brewery_id": 1,
     "city": "Denver",
     "state": "CO"
@@ -14,7 +14,7 @@ const beers = [
     "brewery_name": "Comrade",
     "id": 1,
     "name": "Comrade",
-    "abv": "5.7",
+    "abv": 5.7,
     "brewery_id": 1,
     "city": "Denver",
     "state": "CO"
@@ -24,7 +24,7 @@ const beers = [
     "brewery_name": "Ska",
     "id": 2,
     "name": "Ska",
-    "abv": "5.0",
+    "abv": 5,
     "brewery_id": 2,
     "city": "Durango",
     "state": "CO"
@@ -34,7 +34,7 @@ const beers = [
     "brewery_name": "Ska",
     "id": 2,
     "name": "Ska",
-    "abv": "6.8",
+    "abv": 6.8,
     "brewery_id": 2,
     "city": "Durango",
     "state": "CO"
@@ -63,7 +63,7 @@ const beersByBrewery = {
       "brewery_name": "Comrade",
       "id": 1,
       "name": "Comrade",
-      "abv": "5.0",
+      "abv": 5,
       "brewery_id": 1,
       "city": "Denver",
       "state": "CO"
@@ -73,7 +73,7 @@ const beersByBrewery = {
       "brewery_name": "Comrade",
       "id": 1,
       "name": "Comrade",
-      "abv": "5.7",
+      "abv": 5.7,
       "brewery_id": 1,
       "city": "Denver",
       "state": "CO"
@@ -85,7 +85,7 @@ const beersByBrewery = {
       "brewery_name": "Ska",
       "id": 2,
       "name": "Ska",
-      "abv": "5.0",
+      "abv": 5,
       "brewery_id": 2,
       "city": "Durango",
       "state": "CO"
@@ -95,7 +95,7 @@ const beersByBrewery = {
       "brewery_name": "Ska",
       "id": 2,
       "name": "Ska",
-      "abv": "6.8",
+      "abv": 6.8,
       "brewery_id": 2,
       "city": "Durango",
       "state": "CO"
